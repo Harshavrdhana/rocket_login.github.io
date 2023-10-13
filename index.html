@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header_14</title>
+    <style>
+        .header {
+            background-color: #2F1893;
+            height: 890px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 53px;
+        }
+
+        .logo a {
+            text-decoration: none;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            color: #FFF;
+        }
+
+        .nav_links a {
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+            color: #FFF;
+            margin: 26px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .nav_links button {
+            text-decoration: none;
+            border-radius: 100px;
+            background-color: #e53679;
+            width: 120px;
+            height: 40px;
+            border: none;
+            color: #FFF;
+        }
+
+        .info_login {
+            display: flex;
+            justify-content: space-evenly;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            
+            font-weight: 300;
+        }
+
+        .info h1 {
+            font-size: 58px;
+            letter-spacing: -1px;
+            color: #FFF;
+        }
+
+        .info p {
+            font-size: 22px;
+            font-style: normal;
+            line-height: 32px;
+            color: #FFF;
+        }
+
+        .info {
+            width: 360px;
+            height: 160;
+        }
+
+        .info button {
+            width: 157px;
+            height: 50px;
+            border-radius: 100px;
+            background-color: #e53679;
+            border: none;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            color: #FFF
+        }
+
+        .login {
+            width: 470px;
+            height: 600px;
+            border-radius: 10px;
+            background-color: #FFF;
+            text-align: center;
+        }
+
+        .sign_up {
+
+            color: #1E0E62;
+            font-size: 42px;
+            font-style: normal;
+            font-weight: 700;
+            letter-spacing: -0.4px;
+            line-height: 52px;
+        }
+
+        .email input {
+            width: 330px;
+            height: 43px;
+            border-radius: 100px;
+            border: 2px solid #EBEAED;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px;
+            color: rgba(21, 20, 57, 0.40);
+            text-align: start;
+            opacity: 0.7;
+            flex-shrink: 0;
+            margin-bottom: 17px;
+            ;
+
+        }
+
+        .password input {
+            width: 330px;
+            height: 43px;
+            border-radius: 100px;
+            border: 2px solid #EBEAED;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px;
+            color: rgba(21, 20, 57, 0.40);
+            text-align: start;
+            opacity: 0.7;
+            flex-shrink: 0;
+        }
+
+        .terms {
+            display: flex;
+            margin-left: 70px;
+        }
+        .terms input[type=checkbox] { 
+            visibility: hidden; 
+        } 
+        .checkmark {
+            margin-top: 25px;
+            border-radius: 8px;
+            top: 0px;
+            left: 0px;
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+            background-color: #25DAC5;
+        }
+          
+        .terms input:checked ~ .checkmark { 
+            background-color: #25DAC5; 
+        } 
+        
+        .terms p {
+            margin-top: 30px;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            opacity: 0.5;
+            margin-left: 10px;
+        }
+
+        .sign_in button {
+            width: 330px;
+            height: 43px;
+            border-radius: 100px;
+            background-color: #482BE7;
+            border: none;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px;
+        }
+
+        .sign_in a {
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+
+        .login_twitter button {
+            width: 330px;
+            height: 43px;
+            border-radius: 100px;
+            background-color: #1DA1F2;
+            border: none;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px;
+        }
+
+        .login_twitter a {
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+
+        .exist_signin {
+            display: flex;
+            justify-content: center;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px;
+            opacity: 0.5;
+        }
+
+        .divider p {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            opacity: 0.5;
+        }
+
+        .divider {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 69px;
+            margin-right: 69px;
+        }
+
+        .exist_signin a {
+            text-decoration: none;
+            margin-top: 18px;
+            color: #008b7d;
+            margin-left: 10px;
+        }
+
+        .divider hr {
+            width: 141.57px;
+            height: 2px;
+            border-radius: 10px;
+            background-color: #EBEAED;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <div class="navbar">
+            <div class="logo">
+                <a href="">Startup3</a>
+            </div>
+            <div class="nav_links">
+                <a href="" style="opacity: 0.3;">Overview</a>
+                <a href="">Prices</a>
+                <a href="">Blog</a>
+                <a href="">Feedback</a>
+                <button><a href="">Purchase</a></button>
+            </div>
+        </div>
+        <div class="info_login">
+            <div class="info">
+                <h1>Generate Awesome Web Pages</h1>
+                <p>The most important part of the Startup is the samples form a set of 25 usablepages you can use as is
+                    or you can add new blocks</p>
+                <button>Learn more</button>
+            </div>
+            <div class="login">
+                <div class="sign_up">
+                    <h1>Sign up now</h1>
+                </div>
+                <div class="email">
+                    <input type="email" placeholder="Your Email">
+                </div>
+                <div class="password">
+                    <input type="password" placeholder="Your Password">
+                </div>
+                <div class="terms">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <p>I agree to the terms of service</p>
+                </div>
+                <div class="sign_in">
+                    <button><a href="">Sign In</a></button>
+                </div>
+                <div class="divider">
+                    <hr style="stroke-width: 2px; stroke-linecap: round;">
+                    <p>or</p>
+                    <hr>
+                </div>
+                <div class="login_twitter">
+                    <button><a href="">Login via Twitter</a></button>
+                </div>
+                <div class="exist_signin">
+                    <p>Do you have an account?</p>
+                    <a href="">Sign In</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
